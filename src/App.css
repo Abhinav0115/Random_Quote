@@ -1,0 +1,19 @@
+.App {
+    min-height: 100vh;
+}
+.card {
+    margin-top: 125px;
+}
+
+.bg-color {
+    background: linear-gradient(60deg, #000 40%, #fff 100%);
+    background-repeat: no-repeat;
+}
+.textColor {
+    color: #fff;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+}

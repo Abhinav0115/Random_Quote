@@ -6,14 +6,15 @@ import { Card, CardBody, CardTitle, CardText } from "reactstrap";
 
 const GetQuotes = ({ quote }) => {
     return (
-        <div>
+       <div>
             <h1 className="text-center textColor">Famous Quote</h1>
             <Card>
-                <CardBody className="text-center">
-                    <CardTitle>
+                <CardBody className="">
+                    <CardText className="text-end text-capitalize">{"" + quote?.tags}</CardText>
+                    <CardTitle className="bg-secondary rounded p-2 text-white text-center">
                         <h4>{quote.content}</h4>
                     </CardTitle>
-                    <CardText>{"~ " + quote.author}</CardText>
+                    <CardText className="text-center">{"~ " + quote.author}</CardText>
                 </CardBody>
             </Card>
         </div>
